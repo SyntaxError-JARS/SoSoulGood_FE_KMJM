@@ -8,20 +8,9 @@ function App() {
     return (
         <main className="App">
             <Login />
-            
+            <Register />
         </main>
     );
-}
-
-function App() {
-
-
-  return (
-      <main className="App">
-          <Register />
-          
-      </main>
-  );
 }
 
 export default App;
