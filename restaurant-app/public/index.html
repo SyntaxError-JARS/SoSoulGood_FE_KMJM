@@ -4,26 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Official So Soul Good Website</title>
+    <title>Official So Soul Good Restaurant Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+</head><html>
+
     <body>
-        <title>SO SOUL GOOD RESTAURANT</title>
+       <p> <title>SO SOUL GOOD RESTAURANT</title></p>
         <div>
-            
-            <center><h3><i>We're Not Just <u>GOOD</u>, We're <u>SOUL GOOD</u>!</h3></i>
-                <b><h2>But don't just take our word, check out our menu and see for yourself!</h2></b></center>
+          
+            <center> 
+                <a href="https://www.instagram.com/SoSoulGoodRestaurant/"> <img src="instagram-logo.jfif" alt="Instagram" height="42" width="42">
+                </a>
+                <a href="https://www.twitter.com/SoSoulGoodRestaurant/"> <img src="twitter-logo.png" alt="Twitter" height="42" width="42">   
+                </a>
+                <a href="https://www.facebook.com/SoSoulGoodRestaurant/"> <img src="fb-logo.jpg" alt="Facebook" height="42" width="42">
+                </a>
+             </center>
+
+            <center>
+                <a href="http://localhost:3000/SoSoulGood/register">
+                    <button>Register!</button>
+                </a>
 
                 
-                <center><label for="myCheck" id="checkValue1">Register here</label></center>
-                <center><input type="checkbox" id="myCheck" onclick="registerHere()" /></center>
+                <a href="http://localhost:3000/SoSoulGood/login">
+                    <button>Log in!</button>
+                </a>
+                
+                
+                <a href="http://localhost:3000/SoSoulGood/menu">
+                        <button>So Soul Good Menu</button>
+                    </a></center>
             
-                <center><label for="logIn" id="logValue1">Already registered? Please log in here with email!</label></center>
-                <center><input type="textbox" id="logIn" onclick="logIn()" /></center>
                 
-                <center><button>Update Status</button></center>
-                
-                
+                <center><b><i><h1 style="background-color:powderblue;">
+                    We're Not Just <em><u>GOOD</u></em>, We're <em><u>SOUL GOOD</u></em>!</b></h1></i>
+                <b><h3><p style="background-color:tomato;">
+                    But don't just take our word, check out our menu and see for yourself!</h3></b></p></center>
                 <script>
                     function registerHere() {
                         if (document.getElementById("myCheck").checked === true) {
@@ -34,7 +51,7 @@
                         }
                     }
                     function logIn() {
-                        if (document.getElementById("logIn").innerHTML === true) {
+                        if (document.getElementById("logIn").clicked === true) {
                             document.getElementById("logValue1").innerHTML = "You have logged in, now select 'Update Status'!";
                         } else {
                             document.getElementById("logValue1").innerHTML =
@@ -46,7 +63,11 @@
                 </script>
                 
                 <center><img src="sosoulgoodmenupics.png" alt="So Soul Good Menu"></center>
-                    
+
+              
+
+
+               </html>     
         </div>
     </body>
     

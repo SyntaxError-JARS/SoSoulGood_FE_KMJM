@@ -2,6 +2,7 @@
 
 body{
     
+    
     background-color: #cccccc;
     background-size: contain;
     background-position: center;
@@ -13,3 +14,4 @@ body{
     display: block;
     max-width: 100%;
 }
+
