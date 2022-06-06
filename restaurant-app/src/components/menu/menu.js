@@ -1,6 +1,7 @@
+import { useContext, useEffect} from "react";
 import { useState } from "react";
 
-export default function menu() {
+export default function Menu() {
 
     const [menuBody, setMenuBody] = useState([]);
     const [menu, setMenu] = useState(true);

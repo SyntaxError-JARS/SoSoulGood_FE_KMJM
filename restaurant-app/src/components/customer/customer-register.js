@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useRef } from "react";
 
+
 export default function CustomerRegister() {
     // const user = {
     //     fname: "Tester",
@@ -10,7 +11,7 @@ export default function CustomerRegister() {
     //     dob: "12-31-0000",
     // };
 
-    const url = "http://localhost:3000/SoSoulGood";
+    const url = "http://localhost:3000/SoSoulGood/register";
 
     const usernameInput = useRef();
     const fnameInput = useRef();
@@ -31,7 +32,7 @@ export default function CustomerRegister() {
         };
         console.log(user);
         try {
-            const response = await axios.post(`${url}/customers`, user);
+            const response = await axios.post(`${url}/register`, user);
             console.log(response.data);
         } catch (error) {
             console.error(error.response.data);

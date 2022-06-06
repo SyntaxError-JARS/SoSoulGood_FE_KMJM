@@ -8,6 +8,7 @@
 			"problemMatcher": [],
 			"label": "npm: test",
 			"detail": "react-scripts test"
-		}
+		},
+		
 	]
 }
